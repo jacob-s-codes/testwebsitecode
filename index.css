@@ -1,0 +1,80 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-bottom: 20px;
+    background-color: #333; /* Change as needed */
+    color: white; /* Change as needed */
+    padding: 10px 0; /* Adjust as needed */
+    z-index: 1000; /* Ensures it stays above other content */
+    height: 50px;
+}
+
+#searchButton {
+    font-size: large;
+    transform: scale(1.5);
+}
+
+.homePage a, .googleImage a, .advancedSearch a {
+    color: rgb(152, 159, 159);
+    padding: 5px;
+    padding-right: 70px;
+    padding-bottom: 15px;
+    font-size: 30px;
+    text-align: end;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.advancedSearch a { 
+    float: right;
+    transform: translateY(-50px);
+    padding-right: 80px;
+}
+
+.homePage a {
+    margin-top: -100px;
+    top: 20px;
+    text-align: center;
+    padding-top: 35px;
+    padding-left: 70px;
+    transform: translateY(-20px);
+}
+
+
+
+.googleImage a {
+    padding: 0;
+    margin: 0;
+    transform: translateX(50px);
+
+}
+
+.info {
+    color: blue;
+}
+
+
+li {
+    display: inline-block;
+}
+
+body {
+    background-color: rgb(144, 135, 135);
+}
+
+form {
+    text-align: center;
+    padding-top: 50px;
+    border-radius: 100px;
+}
+
+h1 {
+   text-align: center; 
+   padding-top: 50px;
+   transform: translateY(40px);
+   font-size: 100px;
+   color: white;
+}
+
